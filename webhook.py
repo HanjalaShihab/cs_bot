@@ -6,8 +6,8 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Set up Dialogflow credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path/to/your-dialogflow-key.json"
-DIALOGFLOW_PROJECT_ID = "your-dialogflow-project-id"
+os.environ["9bfdfff4d03faeff4934f0086499c31086a55e55"] = "path/to/your-dialogflow-key.json"
+DIALOGFLOW_PROJECT_ID = "csbot-gun9"
 
 def detect_intent(text, session_id):
     """Send user message to Dialogflow and return response."""
