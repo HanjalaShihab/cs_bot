@@ -1,6 +1,1 @@
-flask==2.0.1
-requests==2.25.1
-google-cloud-dialogflow==2.39.0
-gunicorn==20.1.0
-streamlit==1.18.0
-altair==4.2.0  # Add Altair version compatible with Streamlit
+streamlit
